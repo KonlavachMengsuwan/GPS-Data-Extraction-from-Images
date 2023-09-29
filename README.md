@@ -58,20 +58,17 @@ The script searches for the following parameters:
 ## Note:
 This script is optimized for a specific format and layout of the images. If there are any changes in the layout or new updates in the GPS Status application that affect the image format, adjustments to the script may be required.
 
-```
-Date	Time	Breitengrad (gps)	Langengrad (gps)	Batt. Temp and V	Batt. Percentage
-15.08.2023	20:23:08	51Â°48.5180'N	14Â°24.5410'O	43Â°C 3.94V	66
-15.08.2023	20:23:08	51Â°48.5270'N	14Â°24.4880'0	41Â°C 3.89V	67
-15.08.2023	20:23:08	51Â°48.4800'N	14Â°24.7420'0	48Â°C 3.88V	N/A
-15.08.2023	20:23:08	51Â°48.6860'N	14Â°24.4960'0	39Â°C 3.89V	N/A
-15.08.2023	20:23:08	51Â°48.5020'N	14Â°24.6310'O	47Â°C 3.86V	N/A
-15.08.2023	20:23:08	51Â°48.4880'N	14Â°24.6950'0	48Â°C 3.88V	N/A
-15.08.2023	20:23:08	51Â°48.4610'N	14Â°24.8420'0	50Â°C 3.87V	N/A
-15.08.2023	20:23:08	51Â°48.4720'N	14Â°24.7880'0	50Â°C 3.87V	N/A
-15.08.2023	20:23:08	51Â°48.5060'N	14Â°24.5980'0	46Â°C 3.93V	65
-![image](https://github.com/KonlavachMengsuwan/GPS-Data-Extraction-from-Images/assets/52453368/d88461f8-619d-445b-833c-1a5f8474dd7a)
-```
-
+|index|Date|Time|Breitengrad \(gps\)|Langengrad \(gps\)|Batt\. Temp and V|Batt\. Percentage|
+|---|---|---|---|---|---|---|
+|0|15\.08\.2023|20:23:08|51°48\.5180'N|14°24\.5410'O|43°C 3\.94V|66|
+|1|15\.08\.2023|20:23:08|51°48\.5270'N|14°24\.4880'0|41°C 3\.89V|67|
+|2|15\.08\.2023|20:23:08|51°48\.4800'N|14°24\.7420'0|48°C 3\.88V|N/A|
+|3|15\.08\.2023|20:23:08|51°48\.6860'N|14°24\.4960'0|39°C 3\.89V|N/A|
+|4|15\.08\.2023|20:23:08|51°48\.5020'N|14°24\.6310'O|47°C 3\.86V|N/A|
+|5|15\.08\.2023|20:23:08|51°48\.4880'N|14°24\.6950'0|48°C 3\.88V|N/A|
+|6|15\.08\.2023|20:23:08|51°48\.4610'N|14°24\.8420'0|50°C 3\.87V|N/A|
+|7|15\.08\.2023|20:23:08|51°48\.4720'N|14°24\.7880'0|50°C 3\.87V|N/A|
+|8|15\.08\.2023|20:23:08|51°48\.5060'N|14°24\.5980'0|46°C 3\.93V|65|
 
 ```
 # Install necessary libraries
