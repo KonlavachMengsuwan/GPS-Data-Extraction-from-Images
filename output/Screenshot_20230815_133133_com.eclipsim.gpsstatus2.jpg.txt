@@ -1,0 +1,11 @@
+Neigung (°) (°) — Mag. Feld (uT)/Dekl. Beschl. (g)
+HO7LO1 54/49/5° 0.00
+Tempo (km/h) Hohe (m) MSL Letzter Fix
+
+0.0 1182 13:31:31
+Breitengrad (gps) Langengrad (gps)
+51°48.5270'N 14°24.4880'0
+Batt. (41°C 3.89V) Helligkeit (lux)
+
+67%
+

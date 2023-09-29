@@ -1,0 +1,11 @@
+Neigung (°) (°) — Mag. Feld (uT)/Dekl. Beschl. (g)
+HO2LO5 57/49/5° 0.00
+Tempo (km/h) Hohe (m) MSL Letzter Fix
+
+On KEY C10
+Breitengrad (gps) Langengrad (gps)
+51°48.4800'N 14°24.7420'0
+Batt. (48°C 3.88V) Helligkeit (lux)
+
+SY
+
