@@ -22,7 +22,18 @@ For each image provided:
 
 ![Original Screenshot](Screenshot_20230815_132310_com.eclipsim.gpsstatus2.jpg)
 ![Cropped_Screenshot](output/cropped_Screenshot_20230815_132310_com.eclipsim.gpsstatus2.jpg)
+```
+Neigung (°) (°) — Mag. Feld (uT)/Dekl. Beschl. (g)
+H06LO1 50/49/5° 0.00
+Tempo (km/h) Hohe (m) MSL Letzter Fix
 
+0.0 110.3 13:23:09
+Breitengrad (gps) Langengrad (gps)
+51°48.6860'N 14°24.4960'0
+Batt. (39°C 3.89V) Helligkeit (lux)
+
+oe
+```
 
 ### 3. Data Extraction:
 Using Optical Character Recognition (OCR) provided by pytesseract:
@@ -46,6 +57,21 @@ The script searches for the following parameters:
 
 ## Note:
 This script is optimized for a specific format and layout of the images. If there are any changes in the layout or new updates in the GPS Status application that affect the image format, adjustments to the script may be required.
+
+```
+Date	Time	Breitengrad (gps)	Langengrad (gps)	Batt. Temp and V	Batt. Percentage
+15.08.2023	20:23:08	51Â°48.5180'N	14Â°24.5410'O	43Â°C 3.94V	66
+15.08.2023	20:23:08	51Â°48.5270'N	14Â°24.4880'0	41Â°C 3.89V	67
+15.08.2023	20:23:08	51Â°48.4800'N	14Â°24.7420'0	48Â°C 3.88V	N/A
+15.08.2023	20:23:08	51Â°48.6860'N	14Â°24.4960'0	39Â°C 3.89V	N/A
+15.08.2023	20:23:08	51Â°48.5020'N	14Â°24.6310'O	47Â°C 3.86V	N/A
+15.08.2023	20:23:08	51Â°48.4880'N	14Â°24.6950'0	48Â°C 3.88V	N/A
+15.08.2023	20:23:08	51Â°48.4610'N	14Â°24.8420'0	50Â°C 3.87V	N/A
+15.08.2023	20:23:08	51Â°48.4720'N	14Â°24.7880'0	50Â°C 3.87V	N/A
+15.08.2023	20:23:08	51Â°48.5060'N	14Â°24.5980'0	46Â°C 3.93V	65
+![image](https://github.com/KonlavachMengsuwan/GPS-Data-Extraction-from-Images/assets/52453368/d88461f8-619d-445b-833c-1a5f8474dd7a)
+```
+
 
 ```
 # Install necessary libraries
