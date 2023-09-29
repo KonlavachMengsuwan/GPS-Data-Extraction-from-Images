@@ -20,8 +20,8 @@ For each image provided:
 - The image is loaded and cropped to focus on the area containing the relevant data.
 - The cropped image is saved in an output directory with the prefix cropped_ added to the original file name.
 
-![Study Blocks with Lausitz Boundary and Weather Stations](Screenshot_20230815_132310_com.eclipsim.gpsstatus2.jpg)
-![Study Blocks with Lausitz Boundary and Weather Stations](Study%20Blocks%20with%20Lausitz%20Boundary%20and%20Weather%20Stations.png)
+![Original Screenshot](Screenshot_20230815_132310_com.eclipsim.gpsstatus2.jpg)
+![Cropped_Screenshot](output/cropped_Screenshot_20230815_132310_com.eclipsim.gpsstatus2.jpg)
 
 
 ### 3. Data Extraction:
